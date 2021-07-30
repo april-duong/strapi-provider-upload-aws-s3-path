@@ -1,0 +1,19 @@
+{
+  "name": "strapi-provider-upload-aws-s3-path",
+  "version": "1.0.0",
+  "description": "Upload files to an AWS S3 provider with the option to specify a path to upload to.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/april-duong/strapi-provider-upload-aws-s3-path.git"
+  },
+  "author": "April Duong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/april-duong/strapi-provider-upload-aws-s3-path/issues"
+  },
+  "homepage": "https://github.com/april-duong/strapi-provider-upload-aws-s3-path#readme"
+}
