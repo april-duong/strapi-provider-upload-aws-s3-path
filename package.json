@@ -6,6 +6,13 @@
   "scripts": {
     "test": "node test.js"
   },
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "lodash": "4.17.21"
+  },
+  "strapi": {
+    "isProvider": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/april-duong/strapi-provider-upload-aws-s3-path.git"
