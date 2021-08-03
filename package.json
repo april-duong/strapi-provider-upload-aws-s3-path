@@ -1,14 +1,13 @@
 {
   "name": "strapi-provider-upload-aws-s3-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Upload files to an AWS S3 provider with the option to specify a path to upload to.",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
+  "directories": {
+    "lib": "./lib"
   },
+  "main": "./lib",
   "dependencies": {
-    "aws-sdk": "2.892.0",
-    "lodash": "4.17.21"
+    "aws-sdk": "2.892.0"
   },
   "strapi": {
     "isProvider": true
